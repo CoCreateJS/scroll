@@ -1,3 +1,12 @@
+## [1.14.1](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.14.0...v1.14.1) (2026-07-11)
+
+
+### Bug Fixes
+
+* bump package versions ([f4a4064](https://github.com/CoCreate-app/CoCreate-scroll/commit/f4a4064a6e6ebb72d92c9a425bba441cd1512252))
+* removed post install and add add packages to apprved list ([d5ae12b](https://github.com/CoCreate-app/CoCreate-scroll/commit/d5ae12b24791656b8be230a90d7eb62f63d5fccd))
+* semantic version handling ([87ae4c2](https://github.com/CoCreate-app/CoCreate-scroll/commit/87ae4c2fcb547ad8b459dbd4d8c85e809f2e2bce))
+
 # [1.14.0](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.13.4...v1.14.0) (2026-01-15)
 
 
