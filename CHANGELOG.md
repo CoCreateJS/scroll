@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.14.1...v1.15.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([ff16e37](https://github.com/CoCreate-app/CoCreate-scroll/commit/ff16e376a501b1b0f5dec6333d6d95dc9ade27f0))
+
 ## [1.14.1](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.14.0...v1.14.1) (2026-07-11)
 
 
