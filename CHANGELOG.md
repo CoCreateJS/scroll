@@ -1,3 +1,10 @@
+## [1.15.2](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.15.1...v1.15.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([2ec3edd](https://github.com/CoCreate-app/CoCreate-scroll/commit/2ec3edde1a2cbc145796078056c21f71723b796e))
+
 ## [1.15.1](https://github.com/CoCreate-app/CoCreate-scroll/compare/v1.15.0...v1.15.1) (2026-07-17)
 
 
