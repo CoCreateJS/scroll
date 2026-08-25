@@ -13,7 +13,7 @@ Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-scroll) an
 ```
 git scroll https://github.com/contributor/CoCreate-scroll.git
 cd CoCreate-scroll
-git remote add upstream https://github.com/CoCreate-app/CoCreate-scroll.git
+git remote add upstream https://gitlab.com/cocreatejs/CoCreate-scroll.git
 ```
 
 ## Create a Topic Branch
