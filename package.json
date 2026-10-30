@@ -15,6 +15,87 @@
   "publishConfig": {
     "access": "public"
   },
+  "cocreate": {
+    "environment": [
+      "client"
+    ],
+    "interface": {
+      "schemaVersion": 1,
+      "summary": "A simple scroll component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
+      "source": "src/index.js",
+      "declarative": {
+        "selectors": [
+          "[scroll], [scroll-to], [scrollable-x], [scrollable-y], [scroll-up], [scroll-down], [scroll-top], [scroll-bottom], [scroll-limbo], [scroll-intersect], [scrolling]"
+        ],
+        "attributes": [
+          {
+            "name": "scroll"
+          },
+          {
+            "name": "scroll-attribute"
+          },
+          {
+            "name": "scroll-bottom"
+          },
+          {
+            "name": "scroll-down"
+          },
+          {
+            "name": "scroll-element"
+          },
+          {
+            "name": "scroll-intersect"
+          },
+          {
+            "name": "scroll-limbo"
+          },
+          {
+            "name": "scroll-query"
+          },
+          {
+            "name": "scroll-to"
+          },
+          {
+            "name": "scroll-top"
+          },
+          {
+            "name": "scroll-up"
+          },
+          {
+            "name": "scroll-value"
+          },
+          {
+            "name": "scrollable-x"
+          },
+          {
+            "name": "scrollable-y"
+          },
+          {
+            "name": "scrolling"
+          }
+        ],
+        "actions": [
+          {
+            "name": "scroll-to"
+          }
+        ]
+      },
+      "api": {
+        "exports": [
+          "__initIntersectionObserver",
+          "__runScrollEvent",
+          "__setScrolling",
+          "_scrollEvent",
+          "delta",
+          "init",
+          "initElement",
+          "initElements",
+          "observer",
+          "setScrollPosition"
+        ]
+      }
+    }
+  },
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --mode=production --config webpack.config.js",
