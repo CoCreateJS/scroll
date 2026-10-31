@@ -103,7 +103,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/cocreatejs/CoCreate-scroll.git"
+    "url": "git+https://github.com/cocreatejs/CoCreate-scroll.git"
   },
   "author": "CoCreate LLC",
   "license": "MIT",
