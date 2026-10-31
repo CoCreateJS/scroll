@@ -108,9 +108,9 @@
   "author": "CoCreate LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-scroll/issues"
+    "url": "https://github.com/CoCreateJS/CoCreate-scroll/issues"
   },
-  "homepage": "https://cocreate.app/docs/scroll",
+  "homepage": "https://CoCreateJS.com/docs/scroll",
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/CoCreate-app"
