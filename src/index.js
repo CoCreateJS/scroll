@@ -5,21 +5,46 @@ const selector =
     "[scroll], [scroll-to], [scrollable-x], [scrollable-y], [scroll-up], [scroll-down], [scroll-top], [scroll-bottom], [scroll-limbo], [scroll-intersect], [scrolling]";
 
 const CoCreateScroll = {
+    /**
+     *
+ * @public
+ * @environment client
+ */
     delta: 3,
+    /**
+     *
+ * @public
+ * @environment client
+ */
     observer: null,
     // timer: null, // Removed: Timer needs to be instance-specific, not global
     firedEvents: new Map(),
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     init: function () {
         let elements = document.querySelectorAll(selector);
         this.__initIntersectionObserver();
         this.initElements(elements);
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     initElements: function (elements) {
         for (let el of elements) this.initElement(el);
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     initElement: function (element) {
         const self = this;
         const upSize = this.__getSize(element.getAttribute("scroll-up"));
@@ -95,6 +120,11 @@ const CoCreateScroll = {
         }
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     _scrollEvent: function (elements, element, scrollInfo, scrollableEl) {
         const self = this;
         if (!element.scrollStatus) return;
@@ -125,6 +155,11 @@ const CoCreateScroll = {
         }, 500);
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     setScrollPosition: function (element, scrollTo) {
         if (!scrollTo) return;
         if (scrollTo.includes("top")) {
@@ -140,6 +175,11 @@ const CoCreateScroll = {
         }
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     __initIntersectionObserver: function () {
         const self = this;
         this.observer = new IntersectionObserver((entries) => {
@@ -175,6 +215,11 @@ const CoCreateScroll = {
         });
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     __setScrolling: function (element, info, stopped = false) {
         const { scrolling, attrName } = info;
         if (stopped) {
@@ -184,6 +229,11 @@ const CoCreateScroll = {
         }
     },
 
+    /**
+     *
+ * @public
+ * @environment client
+ */
     __runScrollEvent: function (element, info, scrollableEl) {
         if (!element.scrollStatus) return;
         const currentPos = element.scrollStatus.currentPos;
@@ -372,3 +422,162 @@ Actions.init({
 CoCreateScroll.init();
 
 export default CoCreateScroll;
+
+/**
+ *
+ * @name scroll
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-attribute
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-bottom
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-down
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-element
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-intersect
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-limbo
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-to
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-top
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-up
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scroll-value
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scrollable-x
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scrollable-y
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name scrolling
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ * A simple scroll component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.
+ *
+ * @module scroll
+ * @environment client
+ */
+
+/**
+ * Declarative selectors recognized by this module.
+ *
+ * @name declarative-selectors
+ * @kind member
+ * @selectors
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   "[scroll], [scroll-to], [scrollable-x], [scrollable-y], [scroll-up], [scroll-down], [scroll-top], [scroll-bottom], [scroll-limbo], [scroll-intersect], [scrolling]"
+ * ]
+ * ```
+ */
+
+/**
+ * Declarative actions supported or registered by this module.
+ *
+ * @name declarative-actions
+ * @kind member
+ * @actions
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   {
+ *     "name": "scroll-to"
+ *   }
+ * ]
+ * ```
+ */
