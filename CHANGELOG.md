@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/CoCreateJS/scroll/compare/v1.16.0...v2.0.0) (2026-11-02)
+
+
+### chore
+
+* record package identity migration as breaking ([75fac21](https://github.com/CoCreateJS/scroll/commit/75fac21eee3d956e55168e22f9f3946135aabe2b))
+
+
+### BREAKING CHANGES
+
+* Consumers must install @cocreate/scroll and use the renamed CoCreateJS repository identity; the previous package and repository identities are no longer supported.
+
 # [1.16.0](https://github.com/CoCreateJS/scroll/compare/v1.15.2...v1.16.0) (2026-11-02)
 
 
