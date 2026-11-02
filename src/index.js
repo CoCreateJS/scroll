@@ -426,120 +426,105 @@ export default CoCreateScroll;
 /**
  *
  * @name scroll
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-attribute
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-bottom
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-down
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-element
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-intersect
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-limbo
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-to
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-top
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-up
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scroll-value
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scrollable-x
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scrollable-y
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name scrolling
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
