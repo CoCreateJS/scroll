@@ -5,8 +5,8 @@ A simple scroll component in vanilla javascript. Easily configured using HTML5 a
 ![minified](https://img.badgesize.io/https://cdn.CoCreateJS.com/scroll/latest/CoCreate-scroll.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.CoCreateJS.com/scroll/latest/CoCreate-scroll.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
 ![brotli](https://img.badgesize.io/https://cdn.CoCreateJS.com/scroll/latest/CoCreate-scroll.min.js?compression=brotli&style=flat-square&label=brotli)
-![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-scroll?style=flat-square)
-![License](https://img.shields.io/github/license/CoCreate-app/CoCreate-scroll?style=flat-square)
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreateJS/scroll?style=flat-square)
+![License](https://img.shields.io/github/license/CoCreateJS/scroll?style=flat-square)
 ![Hiring](https://img.shields.io/static/v1?style=flat-square&label=&message=Hiring&color=blueviolet)
 
 ![CoCreate-scroll](https://cdn.CoCreateJS.com/docs/CoCreate-scroll.gif)
@@ -50,13 +50,13 @@ $ yarn install @cocreate/scroll
 
 # Announcements
 
-All updates to this library are documented in our [CHANGELOG](https://github.com/CoCreateJS/CoCreate-scroll/blob/master/CHANGELOG.md) and [releases](https://github.com/CoCreateJS/CoCreate-scroll/releases). You may also subscribe to email for releases and breaking changes.
+All updates to this library are documented in our [CHANGELOG](https://github.com/CoCreateJS/scroll/blob/master/CHANGELOG.md) and [releases](https://github.com/CoCreateJS/scroll/releases). You may also subscribe to email for releases and breaking changes.
 
 <a name="roadmap"></a>
 
 # Roadmap
 
-If you are interested in the future direction of this project, please take a look at our open [issues](https://github.com/CoCreateJS/CoCreate-scroll/issues) and [pull requests](https://github.com/CoCreateJS/CoCreate-scroll/pulls). We would love to hear your feedback.
+If you are interested in the future direction of this project, please take a look at our open [issues](https://github.com/CoCreateJS/scroll/issues) and [pull requests](https://github.com/CoCreateJS/scroll/pulls). We would love to hear your feedback.
 
 <a name="about"></a>
 
@@ -72,9 +72,9 @@ CoCreate-scroll is maintained and funded by CoCreate. The names and logos for Co
 
 # How to Contribute
 
-We encourage contribution to our libraries (you might even score some nifty swag), please see our [CONTRIBUTING](https://github.com/CoCreateJS/CoCreate-scroll/blob/master/CONTRIBUTING.md) guide for details.
+We encourage contribution to our libraries (you might even score some nifty swag), please see our [CONTRIBUTING](https://github.com/CoCreateJS/scroll/blob/master/CONTRIBUTING.md) guide for details.
 
-We want this library to be community-driven, and CoCreate led. We need your help to realize this goal. To help make sure we are building the right things in the right order, we ask that you create [issues](https://github.com/CoCreateJS/CoCreate-scroll/issues) and [pull requests](https://github.com/CoCreateJS/CoCreate-scroll/pulls) or merely upvote or comment on existing issues or pull requests.
+We want this library to be community-driven, and CoCreate led. We need your help to realize this goal. To help make sure we are building the right things in the right order, we ask that you create [issues](https://github.com/CoCreateJS/scroll/issues) and [pull requests](https://github.com/CoCreateJS/scroll/pulls) or merely upvote or comment on existing issues or pull requests.
 
 We appreciate your continued support, thank you!
 
@@ -82,4 +82,4 @@ We appreciate your continued support, thank you!
 <a name="license"></a>
 # License
 
-[The MIT License (MIT)](https://github.com/CoCreateJS/CoCreate-scroll/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/CoCreateJS/scroll/blob/master/LICENSE)
